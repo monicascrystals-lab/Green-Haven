@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Haven | Plant Store</title>
+    <meta
+      name="description"
+      content="Green Haven is a premium plant store offering lush indoor plants, expert care guidance, and seamless delivery."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home">
+          <img src="images/logo/logo.png" alt="Green Haven logo" />
+          <span>Green Haven</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#plants">Plants</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#care">Plant Care</a>
+          <a href="#delivery">Delivery &amp; Payment</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Botanical luxury, naturally</p>
+            <h1>Green Haven</h1>
+            <p class="tagline">A greener space, a calmer place.</p>
+            <p class="intro-text">
+              Discover lush indoor plants, thoughtful gifting, and expert guidance to bring calm and
+              freshness into every room.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#plants">Shop Plants</a>
+              <a class="button button-secondary" href="#gallery">View Gallery</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <img src="images/hero/hero-plant.svg" alt="" />
+            <div class="hero-logo-box">
+              <img src="images/logo/logo.png" alt="Green Haven logo" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="top-selling">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Popular picks</p>
+            <h2>Our Top Selling Plants</h2>
+            <p>These statement plants continue to be customer favourites for their beauty and easy charm.</p>
+          </div>
+          <div class="card-grid" id="top-selling-grid"></div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="plants">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Curated collection</p>
+            <h2>Plant Catalogue</h2>
+            <p>Browse a wide range of leafy companions chosen for texture, colour, and lasting impact.</p>
+          </div>
+          <div class="card-grid catalogue-grid" id="catalogue-grid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="gallery">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Inspiration</p>
+            <h2>Gallery</h2>
+            <p>See the calm, layered look of Green Haven plants styled for modern interiors.</p>
+          </div>
+          <div class="gallery-grid" id="gallery-grid"></div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="about">
+        <div class="container about-grid">
+          <div>
+            <p class="eyebrow">About Green Haven</p>
+            <h2>Quality plants, calm spaces, and thoughtful service.</h2>
+            <p>
+              Green Haven offers carefully selected plants and practical care advice that helps customers create
+              peaceful homes and offices. Our team is passionate about healthy specimens, durable packaging,
+              and a seamless shopping experience from selection to delivery.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>Why customers love us</h3>
+            <ul>
+              <li>Premium quality plants and healthy root systems</li>
+              <li>Elegant styling guidance for every space</li>
+              <li>Reliable delivery and attentive support</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="care">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Plant care</p>
+            <h2>Helpful care tips</h2>
+          </div>
+          <div class="care-grid">
+            <article class="care-card">
+              <h3>Light</h3>
+              <p>Most indoor plants prefer bright, indirect light. Rotate pots weekly for balanced growth.</p>
+            </article>
+            <article class="care-card">
+              <h3>Watering</h3>
+              <p>Water only when the top layer of soil feels dry, and avoid letting roots sit in water.</p>
+            </article>
+            <article class="care-card">
+              <h3>Soil</h3>
+              <p>Use airy, well-draining potting mix to keep roots healthy and prevent rot.</p>
+            </article>
+            <article class="care-card">
+              <h3>Humidity</h3>
+              <p>Increase humidity with a pebble tray or grouping plants together in brighter rooms.</p>
+            </article>
+            <article class="care-card">
+              <h3>Feeding</h3>
+              <p>Feed during the growing season with a balanced liquid fertiliser every few weeks.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="delivery">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Delivery &amp; payment</p>
+            <h2>Easy ordering, thoughtful delivery.</h2>
+          </div>
+          <div class="delivery-grid">
+            <article class="care-card">
+              <h3>Local delivery</h3>
+              <p>We offer fast delivery across Bloemfontein and surrounding areas with secure packaging.</p>
+            </article>
+            <article class="care-card">
+              <h3>Collection</h3>
+              <p>Collect directly from our store when you prefer a personal pickup.</p>
+            </article>
+            <article class="care-card">
+              <h3>Payments</h3>
+              <p>We accept EFT, card payments, cash, and mobile wallets for your convenience.</p>
+            </article>
+            <article class="care-card">
+              <h3>Order confirmation</h3>
+              <p>Every order receives confirmation by email and WhatsApp so you can track your purchase.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Frequently asked</p>
+            <h2>FAQ</h2>
+          </div>
+          <div class="faq-list">
+            <details>
+              <summary>Do you deliver plants nationwide?</summary>
+              <p>We currently focus on local delivery and select regional drop-offs for larger orders.</p>
+            </details>
+            <details>
+              <summary>Are plants suitable for beginners?</summary>
+              <p>Yes. We select easy-care favourites and recommend options based on your home environment.</p>
+            </details>
+            <details>
+              <summary>Can I order plants as gifts?</summary>
+              <p>Absolutely. We offer gift-ready packaging and personalised notes for special occasions.</p>
+            </details>
+            <details>
+              <summary>Do you provide care guidance after purchase?</summary>
+              <p>Yes. We provide care cards and friendly support to help your plant settle beautifully.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow">Get in touch</p>
+            <h2>Contact Green Haven</h2>
+            <ul class="contact-list">
+              <li><strong>Phone:</strong> 051 777 7777</li>
+              <li><strong>Email:</strong> Greenhaven@gmail.com</li>
+              <li><strong>Location:</strong> Haven Street, Bloemfontein Number 25</li>
+              <li><strong>Hours:</strong> Monday-Friday 9-5, Saturday 9-2</li>
+            </ul>
+            <a class="button" href="https://wa.me/270517777777" target="_blank" rel="noreferrer">WhatsApp</a>
+          </div>
+          <form class="contact-form">
+            <label>
+              Name
+              <input type="text" placeholder="Your name" />
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="you@example.com" />
+            </label>
+            <label>
+              Message
+              <textarea rows="5" placeholder="Tell us what you are looking for"></textarea>
+            </label>
+            <button class="button" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Quick links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#plants">Plants</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li>051 777 7777</li>
+            <li>Greenhaven@gmail.com</li>
+            <li>Haven Street, Bloemfontein</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Follow us</h3>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Pinterest</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p><a href="#">Privacy Policy</a> · <a href="#">Terms and Conditions</a></p>
+        <p>© 2026 Green Haven. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
