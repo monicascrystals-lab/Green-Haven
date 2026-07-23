@@ -70,9 +70,10 @@ a {
 }
 
 .header-inner {
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1rem 0;
 }
 
@@ -83,6 +84,10 @@ a {
   font-family: "Playfair Display", serif;
   font-size: 1.15rem;
   letter-spacing: 0.02em;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 110;
 }
 
 .brand img {
@@ -98,6 +103,8 @@ a {
   align-items: center;
   gap: 1rem;
   font-size: 0.95rem;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 .site-nav a {
@@ -119,6 +126,9 @@ a {
   background: transparent;
   border: 0;
   padding: 0.3rem;
+  position: absolute;
+  left: 0.5rem;
+  z-index: 120;
 }
 
 .nav-toggle span {
@@ -130,6 +140,20 @@ a {
 
 .hero {
   padding-top: clamp(3rem, 7vw, 5rem);
+}
+
+/* Full-bleed hero image variant (top section only) */
+.hero-image {
+  padding: 0;
+}
+
+.hero-full {
+  width: 100%;
+  height: clamp(360px, 60vh, 760px);
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: 18px;
 }
 
 .hero-grid {
