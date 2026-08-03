@@ -2,70 +2,67 @@ const topPlants = [
   {
     name: "Monstera Deliciosa",
     description: "Iconic split leaves and a striking sculptural presence.",
-    price: "R1,250",
+    price: "R250",
     image: "images/plants/Monstera.png"
   },
   {
     name: "Snake Plant",
     description: "Architectural, hardy, and ideal for low light spaces.",
-    price: "R650",
-    image: "images/plants/snake-Plant.png"
+    price: "R300",
+    image: "images/plants/snake.png"
   },
   {
     name: "Peace Lily",
     description: "Elegant foliage with graceful white blooms.",
-    price: "R780",
-    image: "images/plants/peacleily.png"
+    price: "R200",
+    image: "images/plants/peacelily.png"
   },
   {
     name: "Fiddle Leaf Fig",
     description: "Large glossy leaves that make a bold statement.",
-    price: "R1,480",
-    image: "images/plants/fiddle leaf fig.png"
+    price: "R500",
+    image: "images/plants/fiddleleaf.png"
   },
   {
     name: "ZZ Plant",
     description: "Low maintenance and perfect for busy interiors.",
-    price: "R720",
-    image: "images/plants/zz plant.png"
+    price: "R170",
+    image: "images/plants/zzplant.png"
   },
   {
     name: "Golden Pothos",
     description: "Vining greenery that trails beautifully from shelves.",
-    price: "R590",
-    image: "images/plants/Golden Pothos.png"
+    price: "R99",
+    image: "images/plants/goldenpothos.png"
   },
   {
     name: "Aloe Vera",
     description: "A soothing succulent with sculptural, practical charm.",
-    price: "R420",
-    image: "images/plants/Calathea.png"
+    price: "R177",
+    image: "images/plants/aloevera.png"
   }
 ];
 
 const cataloguePlants = [
-  { name: "Monstera Deliciosa", description: "A lush tropical favourite with dramatic perforated leaves.", price: "R1,250", image: "images/plants/plant-placeholder.svg" },
-  { name: "Snake Plant", description: "Bold vertical foliage that thrives in low light conditions.", price: "R650", image: "images/plants/plant-placeholder.svg" },
-  { name: "Peace Lily", description: "Elegant leaves with soft white blooms and a soothing look.", price: "R780", image: "images/plants/plant-placeholder.svg" },
-  { name: "Fiddle Leaf Fig", description: "Classic statement plant with large, glossy leaves.", price: "R1,480", image: "images/plants/plant-placeholder.svg" },
-  { name: "ZZ Plant", description: "Hardy and glossy, perfect for enduring indoor conditions.", price: "R720", image: "images/plants/plant-placeholder.svg" },
-  { name: "Golden Pothos", description: "Easy care trailing vine with rich, luminous green tones.", price: "R590", image: "images/plants/plant-placeholder.svg" },
-  { name: "Aloe Vera", description: "A sculptural succulent beloved for its soothing gel.", price: "R420", image: "images/plants/plant-placeholder.svg" },
-  { name: "Spider Plant", description: "Arching leaves and playful baby offshoots for movement.", price: "R500", image: "images/plants/plant-placeholder.svg" },
-  { name: "Rubber Plant", description: "Full glossy leaves add warmth and depth to interiors.", price: "R980", image: "images/plants/plant-placeholder.svg" },
-  { name: "Boston Fern", description: "Soft feathery fronds that lend a fresh, airy feel.", price: "R760", image: "images/plants/plant-placeholder.svg" },
-  { name: "Chinese Evergreen", description: "Colourful leaves with enduring elegance and resilience.", price: "R690", image: "images/plants/plant-placeholder.svg" },
-  { name: "Dracaena", description: "Slim architectural leaves that suit modern spaces beautifully.", price: "R810", image: "images/plants/plant-placeholder.svg" },
-  { name: "Calathea", description: "Striking patterned foliage with a gentle, tropical presence.", price: "R880", image: "images/plants/plant-placeholder.svg" },
-  { name: "Bird of Paradise", description: "Bold leaves that bring instant tropical drama to a room.", price: "R1,620", image: "images/plants/plant-placeholder.svg" },
-  { name: "Philodendron", description: "Lush heart-shaped foliage with relaxed indoor appeal.", price: "R740", image: "images/plants/plant-placeholder.svg" },
-  { name: "Areca Palm", description: "Soft feathered fronds that create a calm, airy feel.", price: "R1,090", image: "images/plants/plant-placeholder.svg" },
-  { name: "Jade Plant", description: "A classic succulent with rich green, rounded leaves.", price: "R560", image: "images/plants/plant-placeholder.svg" },
-  { name: "Anthurium", description: "Bright glossy leaves and lasting colour for bold display.", price: "R940", image: "images/plants/plant-placeholder.svg" },
-  { name: "English Ivy", description: "Trailing greenery that works perfectly in hanging planters.", price: "R430", image: "images/plants/plant-placeholder.svg" },
-  { name: "Parlor Palm", description: "Compact and graceful, with soft texture and gentle movement.", price: "R680", image: "images/plants/plant-placeholder.svg" },
-  { name: "String of Pearls", description: "A trailing succulent with delicate bead-like foliage.", price: "R480", image: "images/plants/plant-placeholder.svg" },
-  { name: "Orchid", description: "An elegant bloom that adds softness and luxury to any space.", price: "R1,320", image: "images/plants/plant-placeholder.svg" }
+  { name: "Monstera Deliciosa", description: "A lush tropical favourite with dramatic perforated leaves.", price: "R250", image: "images/plants/monstera.png" },
+  { name: "Snake Plant", description: "Bold vertical foliage that thrives in low light conditions.", price: "R300", image: "images/plants/snake.png" },
+  { name: "Peace Lily", description: "Elegant leaves with soft white blooms and a soothing look.", price: "R200", image: "images/plants/peacelily.png" },
+  { name: "Fiddle Leaf Fig", description: "Classic statement plant with large, glossy leaves.", price: "R500", image: "images/plants/fiddleleaf.png" },
+  { name: "ZZ Plant", description: "Hardy and glossy, perfect for enduring indoor conditions.", price: "R170", image: "images/plants/zzplant.png" },
+  { name: "Golden Pothos", description: "Easy care trailing vine with rich, luminous green tones.", price: "R99", image: "images/plants/goldenpothos.png" },
+  { name: "Aloe Vera", description: "A sculptural succulent beloved for its soothing gel.", price: "R177", image: "images/plants/aloevera.png" },
+  { name: "Spider Plant", description: "Arching leaves and playful baby offshoots for movement.", price: "R500", image: "images/plants/spider.png" },
+  { name: "Rubber Plant", description: "Full glossy leaves add warmth and depth to interiors.", price: "R980", image: "images/plants/rubber.png" },
+  { name: "Calathea", description: "Striking patterned foliage with a gentle, tropical presence.", price: "R880", image: "images/plants/calathea.png" },
+  { name: "Bird of Paradise", description: "Bold leaves that bring instant tropical drama to a room.", price: "R1,620", image: "images/plants/birdofparadise.png" },
+  { name: "Flamino Flower", description: "Lush heart-shaped foliage with relaxed indoor appeal.", price: "R740", image: "images/plants/flamingoflower.png" },
+  { name: "Areca Palm", description: "Soft feathered fronds that create a calm, airy feel.", price: "R1,090", image: "images/plants/arecapalm.png" },
+  { name: "Jade Plant", description: "A classic succulent with rich green, rounded leaves.", price: "R560", image: "images/plants/jade.png" },
+  { name: "Anthurium", description: "Bright glossy leaves and lasting colour for bold display.", price: "R940", image: "images/plants/anthurium.png" },
+  { name: "English Ivy", description: "Trailing greenery that works perfectly in hanging planters.", price: "R430", image: "images/plants/englishivy.png" },
+  { name: "Parlor Palm", description: "Compact and graceful, with soft texture and gentle movement.", price: "R680", image: "images/plants/parlorpalm.png" },
+  { name: "String of Pearls", description: "A trailing succulent with delicate bead-like foliage.", price: "R480", image: "images/plants/stringofpearls.png" },
+  { name: "Orchid", description: "An elegant bloom that adds softness and luxury to any space.", price: "R1,320", image: "images/plants/orchid.png" }
 ];
 
 const galleryImages = Array.from({ length: 25 }, (_, index) => ({
@@ -102,7 +99,7 @@ function renderGallery() {
     .map(
       (image) => `
         <div class="gallery-item">
-          <img src="${image.src}" alt="${image.alt}" />
+          <img src="${plant.image}" alt="${plant.name}">
         </div>
       `
     )
